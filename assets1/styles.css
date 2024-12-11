@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.animal-info {
+    display: table;
+    width: 100%;
+}
+
+.cell {
+    display: table-cell;
+    padding: 20px;
+    vertical-align: top;
+    width: 50%;
+}
+
+.cell img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+.clickable-image {
+    cursor: pointer;
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.cell P {
+    margin-bottom: 30px;
+}
